@@ -11,11 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/name"
-            android:textColor="@android:color/black"
             android:textAlignment="center"
-            android:textSize="@dimen/text_size"
-            android:paddingTop="@dimen/small_padding"
-            android:layout_marginTop="@dimen/layout_margin"
-            android:fontFamily="@font/roboto"/>
+            style="@style/NameStyle"/>
 
 </LinearLayout>

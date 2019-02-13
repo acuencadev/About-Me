@@ -37,6 +37,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bio_text"
                 style="@style/NameStyle"
+                android:lineSpacingMultiplier="@dimen/text_spacing"
                 tools:text="@string/bio"/>
     </ScrollView>
 

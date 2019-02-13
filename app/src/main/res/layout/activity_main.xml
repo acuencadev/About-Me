@@ -18,7 +18,7 @@
 
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             app:srcCompat="@android:drawable/btn_star_big_on"
             android:id="@+id/star_image"
             android:contentDescription="@string/yellow_star"

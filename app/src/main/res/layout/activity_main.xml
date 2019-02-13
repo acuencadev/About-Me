@@ -18,11 +18,20 @@
 
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             app:srcCompat="@android:drawable/btn_star_big_on"
             android:id="@+id/star_image"
-            android:layout_weight="1"
             android:contentDescription="@string/yellow_star"
             android:scaleType="matrix"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+    </ScrollView>
 
 </LinearLayout>
